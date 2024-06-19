@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: all .3s linear;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, p, i, span, li{
+    font-size: 1.7rem;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(21, 66, 131), rgb(15, 48, 91));
+}
+
+.container-max-width{
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+.container .left{
+    border: none;
+    box-shadow: none;
+    padding: 1rem;
+}
+
+.container .left h1{
+    font-size: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+.container .left h1:hover{
+    color: #8c8c8c;
+}
+.container .left h2{
+    font-size: 2.5rem;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+.container .left h3{
+    font-size: 2.5rem;
+    line-height: 1.6;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+.texts p{
+    line-height: 1.7;
+    padding: .5rem 0;
+}
+
+.lest{
+    line-height: 1.7;
+    font-size: 1.7rem;
+    padding: 1rem 0 1rem 4rem;
+}
+
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.btn-1 a{
+    border: .1rem solid #8c8c8c;
+    color: #000;
+    font-weight: bold;
+    padding: .3rem 1rem;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.image img{
+    width: 100%;
+}
+.image P{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.content-1{
+    padding: 1rem;
+    border: .1rem solid #40aff9;
+    box-shadow: rgba(26, 175, 249, 0.638) 0px 0px 15px;
+}
+.content-2{
+    padding: 1rem;
+    border: .1rem solid #40aff9;
+    box-shadow: rgba(26, 175, 249, 0.638) 0px 0px 15px;
+    margin: 3rem 0;
+}
+.content-3{
+    padding: 1rem;
+    border: .1rem solid #40aff9;
+    box-shadow: rgba(26, 175, 249, 0.638) 0px 0px 15px;
+    margin: 3rem 0;
+}
+.content-4{
+    padding: 1rem;
+    border: .1rem solid #40aff9;
+    box-shadow: rgba(26, 175, 249, 0.638) 0px 0px 15px;
+    margin: 3rem 0;
+}
+.content-5{
+    padding: 1rem;
+    border: .1rem solid #40aff9;
+    box-shadow: rgba(26, 175, 249, 0.638) 0px 0px 15px;
+    margin: 3rem 0;
+}
+.icons-left{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    
+}
+.icons-left span{
+    font-size: 1.5rem;
+    color: #40aff9;
+    cursor: pointer;
+}
+.icons-left span i{
+    font-size: 1.5rem;
+    color: #8c8c8c;
+}
+@media screen and (max-width: 768px) {
+    .container .left{
+        padding: 2rem;
+    }
+}
