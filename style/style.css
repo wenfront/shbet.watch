@@ -187,6 +187,12 @@ header{
     letter-spacing: .1rem;
     cursor: pointer;
 }
+.image{
+    max-width: 100%;
+}
+.image img{
+    width: 100%;
+}
 .grid-6x1{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
